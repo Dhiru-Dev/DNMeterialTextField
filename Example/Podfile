@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DNMeterialTextField_Example' do
+  pod 'DNMeterialTextField', :path => '../'
+
+  target 'DNMeterialTextField_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

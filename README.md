@@ -42,6 +42,7 @@ pod 'DNMeterialTextField'
 
 ` let textField = DNMeterialTextField(frame: CGRect(x: 0, y: 0, width: 200.00, height: 40.00))
 textField.borderStyle  = .none //important
+textField.placeholder = "Enter Email"
 self.view.addSubview(textField)`
 
 ## Customize
@@ -55,21 +56,24 @@ self.view.addSubview(textField)`
 
 ### Modify using code :
 1.  Change roundness
-`self.textField.cornerRadius:CGFloat =  10.0`
+`self.textField.cornerRadius =  10.0`
 
 2.  Change Active Color
-`self.textField.activeBorderColor:UIColor = .orange`
+`self.textField.activeBorderColor = UIColor.orange`
 
 3.  Change InAcitve Color
-`self.textField.inactiveColor:UIColor = .darkGray`
+`self.textField.inactiveColor = .darkGray`
 
 3.  Change Left Side icon ( set nil to remove icon default = nil )
-`self.textField.leftSideIcon:UIImage? = UIImage(named:”ic_user”)`
+`self.textField.leftSideIcon = UIImage(named:”ic_user”)`
 
 
 ## Author
 
 Dhiru-Dev, dhiru.ard@gmail.com
+
+#### StackOvrflow
+![](https://stackoverflow.com/users/4466607/dhiru)
 
 ## License
 

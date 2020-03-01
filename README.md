@@ -6,8 +6,7 @@
 
 
 ## DNMeterialTextFiled
-This TextFiled is created using Swift languagge and this is available  iOS , inspired by Meterial Desing , Android EditText 
-
+This TextFiled is created using Swift languagge and this is available  iOS , inspired by Material Design , Android EditText 
 `com.google.android.material.textfield.TextInputEditText`
 
 With icons

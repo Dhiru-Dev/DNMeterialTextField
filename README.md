@@ -8,17 +8,30 @@
 ## DNMeterialTextFiled
 This TextFiled is created using Swift languagge and this is available  iOS , inspired by Material Design , Android EditText 
 `com.google.android.material.textfield.TextInputEditText`
+###### With icons
 
-With icons
 ![](https://i.imgur.com/p76rpgu.gif)
 
-Without icons
+###### Without icons
+
 ![](https://i.imgur.com/RPvINYl.gif)
 
 
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+Platform :  `iOS , Swift 4.3+`
+
+## Installation
+
+DNMeterialTextField is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'DNMeterialTextField'
+```
 
 
 ## Uses
@@ -28,11 +41,15 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 2. Using code :
 
 ` let textField = DNMeterialTextField(frame: CGRect(x: 0, y: 0, width: 200.00, height: 40.00))
+textField.borderStyle  = .none //important
 self.view.addSubview(textField)`
 
 ## Customize
 
 ### Inspectable Properties (Storyboard)
+
+##### Border Style Must be set to `none` (4th in image)
+
 ![](https://i.imgur.com/X15EzHF.png)
 
 
@@ -49,18 +66,6 @@ self.view.addSubview(textField)`
 3.  Change Left Side icon ( set nil to remove icon default = nil )
 `self.textField.leftSideIcon:UIImage? = UIImage(named:”ic_user”)`
 
-
-## Requirements
-Platform :  `iOS , Swift 4.3+`
-
-## Installation
-
-DNMeterialTextField is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'DNMeterialTextField'
-```
 
 ## Author
 

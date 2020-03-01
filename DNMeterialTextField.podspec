@@ -30,8 +30,9 @@ TODO: This TextFiled is created using Swift languagge and this is available iOS 
 
   s.ios.deployment_target = '8.0'
   s.swift_version = '4.2'
+  s.requires_arc = true
   # s.requires_arc = true
-  s.source_files = 'DNMeterialTextField/Classes/**/*.{swift}'
+  s.source_files = 'DNMeterialTextField/Classes/**/*'
   
   # s.resource_bundles = {
   #   'DNMeterialTextField' => ['DNMeterialTextField/Assets/*.png']

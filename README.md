@@ -1,7 +1,7 @@
 # DNMeterialTextField
 
 [![Version](https://img.shields.io/cocoapods/v/DNMeterialTextField.svg?style=flat)](https://cocoapods.org/pods/DNMeterialTextField)
-[![License](https://img.shields.io/cocoapods/l/DNMeterialTextField.svg?style=flat)](https://cocoapods.org/pods/DNMeterialTextField)
+#[![License](https://img.shields.io/cocoapods/l/DNMeterialTextField.svg?style=flat)](https://cocoapods.org/pods/DNMeterialTextField)
 [![Platform](https://img.shields.io/cocoapods/p/DNMeterialTextField.svg?style=flat)](https://cocoapods.org/pods/DNMeterialTextField)
 
 
@@ -72,8 +72,9 @@ self.view.addSubview(textField)`
 
 Dhiru-Dev, dhiru.ard@gmail.com
 
-#### StackOvrflow
+#### StackOvrflow 
 ![](https://stackoverflow.com/users/4466607/dhiru)
+
 
 ## License
 

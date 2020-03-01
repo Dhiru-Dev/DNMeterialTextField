@@ -1,0 +1,6 @@
+framework module DNMeterialTextField {
+  umbrella header "DNMeterialTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

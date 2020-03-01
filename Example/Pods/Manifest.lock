@@ -1,0 +1,16 @@
+PODS:
+  - DNMeterialTextField (0.1.0)
+
+DEPENDENCIES:
+  - DNMeterialTextField (from `../`)
+
+EXTERNAL SOURCES:
+  DNMeterialTextField:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DNMeterialTextField: e14a4c26b030fa89fdf9bc72a67d860e261c1713
+
+PODFILE CHECKSUM: f2c55e6151244749ed39f8a08ae716320a11d3a4
+
+COCOAPODS: 1.8.4

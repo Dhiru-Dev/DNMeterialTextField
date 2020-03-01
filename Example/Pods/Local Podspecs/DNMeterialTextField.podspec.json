@@ -1,0 +1,22 @@
+{
+  "name": "DNMeterialTextField",
+  "version": "0.1.0",
+  "summary": "A short description of DNMeterialTextField.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Dhiru-Dev/DNMeterialTextField",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Dhiru-Dev": "dhiru.ard@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Dhiru-Dev/DNMeterialTextField.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DNMeterialTextField/Classes/**/*"
+}

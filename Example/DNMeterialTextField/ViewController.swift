@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import DNMeterialTextField
 
 class ViewController: UIViewController {
 
+    let txtFiled = DNMeterialTextField()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        txtFiled.text = "testing"
+        print()
+        
     }
 
     override func didReceiveMemoryWarning() {

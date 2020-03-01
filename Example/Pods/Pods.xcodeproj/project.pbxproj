@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		01B1FB6A9F1CF79912D63D103D60D9DC /* Pods-DNMeterialTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 440FB5DC4EE7DBBFE51E3921D721D3A6 /* Pods-DNMeterialTextField_Example-dummy.m */; };
+		0AE0925F240C427000AFB54B /* DNMeterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0925E240C427000AFB54B /* DNMeterialTextField.swift */; };
 		3579C46CB9D27FAD3D49212B33159422 /* DNMeterialTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 062F093040A2375FF5EA8BFE0815F278 /* DNMeterialTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3B826F6A5A081732BBBDBDB4D5C8E306 /* Pods-DNMeterialTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D789B2647454F4D4F52B8F1AAA62A022 /* Pods-DNMeterialTextField_Tests-dummy.m */; };
 		406F0EF231EA4AF5F046418FD223EF04 /* DNMeterialTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9EBD89A9B985BCD8BE574B5F12817F /* DNMeterialTextField-dummy.m */; };
@@ -39,6 +40,7 @@
 		03CE5878DC851DDEEB5150B9A4556715 /* Pods-DNMeterialTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DNMeterialTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
 		062F093040A2375FF5EA8BFE0815F278 /* DNMeterialTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DNMeterialTextField-umbrella.h"; sourceTree = "<group>"; };
 		065CC2DCC7C149E910874E39CEFC6EEF /* Pods-DNMeterialTextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DNMeterialTextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0AE0925E240C427000AFB54B /* DNMeterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNMeterialTextField.swift; sourceTree = "<group>"; };
 		0D9EBD89A9B985BCD8BE574B5F12817F /* DNMeterialTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DNMeterialTextField-dummy.m"; sourceTree = "<group>"; };
 		1040CE9250F08DBA7FF40CD3FCC96EB7 /* Pods-DNMeterialTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DNMeterialTextField_Example.modulemap"; sourceTree = "<group>"; };
 		106C1BB8E62BDC519B5595F6BD37CB05 /* DNMeterialTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DNMeterialTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -211,6 +213,7 @@
 		DDB3830824D8E00833A3A4370C56241F /* DNMeterialTextField */ = {
 			isa = PBXGroup;
 			children = (
+				0AE0925E240C427000AFB54B /* DNMeterialTextField.swift */,
 				B2A97BF077692CBE8538A2A7246A8111 /* Pod */,
 				A951E3E20FA1B12208F5806A21A13B97 /* Support Files */,
 			);
@@ -367,6 +370,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AE0925F240C427000AFB54B /* DNMeterialTextField.swift in Sources */,
 				406F0EF231EA4AF5F046418FD223EF04 /* DNMeterialTextField-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

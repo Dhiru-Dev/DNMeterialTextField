@@ -23,7 +23,7 @@ TODO: This TextFiled is created using Swift languagge and this is available iOS 
 
   s.homepage         = 'https://github.com/Dhiru-Dev/DNMeterialTextField'
   s.screenshots      = 'https://i.imgur.com/p76rpgu.gif','https://i.imgur.com/7cKWoyu.png'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.author           = { 'Dhiru-Dev' => 'dhiru.ard@gmail.com' }
   s.source           = { :git => 'https://github.com/Dhiru-Dev/DNMeterialTextField.git', :tag => s.version.to_s }
   s.social_media_url = 'https://stackoverflow.com/users/4466607/dhiru'

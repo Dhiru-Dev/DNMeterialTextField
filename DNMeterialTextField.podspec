@@ -28,7 +28,7 @@ TODO: This TextFiled is created using Swift languagge and this is available iOS 
   s.source           = { :git => 'https://github.com/Dhiru-Dev/DNMeterialTextField.git', :tag => s.version.to_s }
   s.social_media_url = 'https://stackoverflow.com/users/4466607/dhiru'
 
-  s.ios.deployment_target = '10.3'
+  s.ios.deployment_target = '8.0'
   s.swift_version = '4.2'
   s.requires_arc = true
   s.source_files = 'DNMeterialTextField/Classes/**/*'
